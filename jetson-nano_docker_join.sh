@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-IMG=argnctu/sis:xavier-nx 
+IMG=argnctu/jetson-nanojetson-nano
 
 xhost +
 containerid=$(docker ps -aqf "ancestor=${IMG}")&& echo $containerid
